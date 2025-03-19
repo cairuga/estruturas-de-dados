@@ -3,14 +3,14 @@
 
 int main(int argc, char *argv[]) {
 	
-	int quantidade, i;
+	int quantidade;
 	
 	printf("Informe a quantidade de alunos: ");
 	scanf("%d", &quantidade);
 	
 	float notas[quantidade];
 	
-	for (i=0; i<quantidade; i++) {
+	for (int i=0; i<quantidade; i++) {
 		printf("Informe a nota do aluno %d: ", i+1);
 		scanf("%f", &notas[i]);
 	}	
