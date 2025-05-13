@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "lista-encadeada.h"
+#include "lista_encadeada.h"
 
 Lista* criar_lista() {
    Lista* lista = (Lista*) malloc(sizeof(Lista));
