@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "lista-encadeada.h"
+#include "lista_encadeada.h"
 
 int main() {
    Lista* lista = criar_lista();
